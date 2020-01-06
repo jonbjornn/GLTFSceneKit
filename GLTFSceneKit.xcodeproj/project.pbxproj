@@ -121,6 +121,8 @@
 		DDE6FDD41F4675CB00CB11D6 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE6FDAC1F46716B00CB11D6 /* GameViewController.swift */; };
 		DDE6FDD61F46764500CB11D6 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDE6FDAA1F46716B00CB11D6 /* MainMenu.xib */; };
 		DDE6FDDA1F46785100CB11D6 /* GLTFSceneSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE6FDD91F46785100CB11D6 /* GLTFSceneSource.swift */; };
+		FCF6E3A523C3263400186C6E /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF6E3A423C3263400186C6E /* Package.swift */; };
+		FCF6E3A623C3263400186C6E /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF6E3A423C3263400186C6E /* Package.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -236,6 +238,7 @@
 		DDE6FDAF1F46716B00CB11D6 /* GameSample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GameSample.entitlements; sourceTree = "<group>"; };
 		DDE6FDB41F4671B000CB11D6 /* GLTFSceneKitSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GLTFSceneKitSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDE6FDD91F46785100CB11D6 /* GLTFSceneSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GLTFSceneSource.swift; sourceTree = "<group>"; };
+		FCF6E3A423C3263400186C6E /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -302,6 +305,7 @@
 		DD8392421F466C2D006A1CAC = {
 			isa = PBXGroup;
 			children = (
+				FCF6E3A423C3263400186C6E /* Package.swift */,
 				DD83924E1F466C2D006A1CAC /* Source */,
 				DD83924D1F466C2D006A1CAC /* Products */,
 				DDE6FD831F46708100CB11D6 /* Sample */,
@@ -692,6 +696,7 @@
 				DD3EB07F1F524783009F32D2 /* GLTFAnimationChannelTarget.swift in Sources */,
 				DD3EB09C1F524790009F32D2 /* GLTFUnarchiver.swift in Sources */,
 				DD3EB0861F524783009F32D2 /* GLTFCameraPerspective.swift in Sources */,
+				FCF6E3A623C3263400186C6E /* Package.swift in Sources */,
 				DD3EB09E1F524790009F32D2 /* GLTFTypes.swift in Sources */,
 				DD3EB0931F524783009F32D2 /* GLTFMeshPrimitive.swift in Sources */,
 				DD3EB08E1F524783009F32D2 /* GLTFMaterial.swift in Sources */,
@@ -740,6 +745,7 @@
 				DDE6FD661F466F3600CB11D6 /* GLTFAnimationChannelTarget.swift in Sources */,
 				DDE6FD6D1F466F3600CB11D6 /* GLTFCameraPerspective.swift in Sources */,
 				DDE6FD7A1F466F3600CB11D6 /* GLTFMeshPrimitive.swift in Sources */,
+				FCF6E3A523C3263400186C6E /* Package.swift in Sources */,
 				DDE6FD751F466F3600CB11D6 /* GLTFMaterial.swift in Sources */,
 				DDE6FD681F466F3600CB11D6 /* GLTFAsset.swift in Sources */,
 				DDE6FD671F466F3600CB11D6 /* GLTFAnimationSampler.swift in Sources */,
